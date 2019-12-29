@@ -1,0 +1,2 @@
+/* pages/info/info.wxss */
+image{margin: 0 auto;text-align: center;width: 100%!important;padding: 0;float: left;}

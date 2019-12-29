@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/vipCard/vipCenter",
+    "pages/vipCard/vipPaySet",
+    "pages/vipCard/vipHomePage",
+    "pages/vipCard/payDetail",
+    "pages/detailPage/detailPage",
+    "pages/orderPage/orderPage",
+    "pages/searchPage/searchlist",
+    "pages/vipCard/paySuccess",
+    "pages/vipCard/setPassword",
+    "pages/orderPage/room",
+    "pages/orderPage/specialty",
+    "pages/orderPage/business",
+    "pages/orderPage/goodsPayPage",
+    "pages/orderPage/settingPwd",
+    "pages/orderPage/address",
+    "pages/orderPage/addAddress",
+    "pages/orderPage/paySuccess",
+    "pages/orderPage/food",
+    "pages/orderPage/ticket",
+    "pages/orderPage/activity",
+    "pages/orderPage/route",
+    "pages/orderPage/buy",
+    "pages/orderPage/orderSuccess"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "村游网",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

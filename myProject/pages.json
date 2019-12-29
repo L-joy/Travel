@@ -1,0 +1,167 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/vipCard/vipCenter",
+		    "style" : {
+				"navigationBarTitleText": "会员中心"
+			}
+		},
+		{
+		    "path" : "pages/vipCard/vipPaySet",
+		    "style" : {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		
+		{
+		"path": "pages/vipCard/vipHomePage",
+		"style": {
+			"navigationBarTitleText": "会员卡"
+			}
+		},
+	
+		{
+		    "path" : "pages/vipCard/payDetail",
+		    "style" : {
+				"navigationBarTitleText": "明细"
+			}
+		},
+	
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "村游网"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/homePage/homePage",
+		// 	"style": {
+		// 		"navigationBarTitleText": "首页"
+		// 	}
+		// },
+		{
+			"path": "pages/detailPage/detailPage",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/orderPage/orderPage",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/searchPage/searchlist",
+			"style": {
+				"navigationBarTitleText": "搜索页"
+			}
+		},
+		{
+			"path": "pages/vipCard/paySuccess",
+			"style": {
+				"navigationBarTitleText": "充值成功"
+			}
+		},
+		{
+			"path": "pages/vipCard/setPassword",
+			"style": {
+				"navigationBarTitleText": "密码设置"
+			}
+		},
+		{
+		   "path": "pages/orderPage/room",
+		   "style": {
+		    "navigationBarTitleText": "住宿"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/specialty",
+		   "style": {
+		    "navigationBarTitleText": "特产"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/business",
+		   "style": {
+		    "navigationBarTitleText": "商家"
+		   }
+		  },
+		  
+		  {
+		   "path": "pages/orderPage/goodsPayPage",
+		   "style": {
+		    "navigationBarTitleText": "填写订单"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/settingPwd",
+		   "style": {
+		    "navigationBarTitleText": "找回密码"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/address",
+		   "style": {
+		    "navigationBarTitleText": "收货地址"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/addAddress",
+		   "style": {
+		    "navigationBarTitleText": "添加收货地址"
+		   }
+		  },
+		 
+		  {
+		   "path": "pages/orderPage/paySuccess",
+		   "style": {
+		    "navigationBarTitleText": "支付成功"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/food",
+		   "style": {
+		    "navigationBarTitleText": "美食"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/ticket",
+		   "style": {
+		    "navigationBarTitleText": "门票"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/activity",
+		   "style": {
+		    "navigationBarTitleText": "活动"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/route",
+		   "style": {
+		    "navigationBarTitleText": "线路"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/buy",
+		   "style": {
+		    "navigationBarTitleText": "抢购"
+		   }
+		  },
+		  {
+		   "path": "pages/orderPage/orderSuccess",
+		   "style": {
+		    "navigationBarTitleText": "预约成功"
+		   }
+		  }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "村游网",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+	
+}

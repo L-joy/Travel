@@ -1,0 +1,49 @@
+<view class="index_box">
+  <view class="chat_title mt20"></view>
+
+  <view class='chat_user_lits'>
+
+    <scroll-view scroll-y style="height:600rpx;">
+
+      <view class='chat_user_itme flex'  wx:for="{{user_list}}" wx:for-index="idx" wx:for-item="itemName">
+
+        <view class='vux-flexbox-item user_face'>
+          <image mode='widthFix' src='{{itemName.face}}'></image>
+        </view>
+        <view class='vux-flexbox-item flex flex_col user_text'>
+          <view class='vux-flexbox-item user_name'>{{itemName.name}}</view>
+          <view class='vux-flexbox-item user_text'>{{itemName.text}}</view>
+        </view>
+        <view class='vux-flexbox-item flex flex_col user_zan'>
+
+
+          <view class='vux-flexbox-item user_name iconfont {{itemName.zan_start==1 ? "icon-zan2"  : "icon-zan1"}}' data-key='{{idx}}' data-id='{{itemName.id}}' bindtap='user_zan'></view>
+          <view class='vux-flexbox-item icon-zan'>{{itemName.zan}}</view>
+
+
+
+        </view>
+      </view>
+    </scroll-view>
+
+
+  </view>
+
+  <view class='chat_text'>
+
+    <view class='chat_text_1'>我也有话说： </view>
+    <textarea bindinput="bindinput" value='{{text}}' placeholder="输入您想要说的话" />
+
+    <view class='chat_text_btn'>
+
+ <button open-type="getUserInfo" lang="zh_CN"  bindgetuserinfo="onGotUserInfo" hidden='{{userinfo_flag}}'></button>
+      <view class='c_btn flex' bindtap='subit'>
+     
+      提交</view>
+
+    </view>
+
+
+  </view>
+
+</view>

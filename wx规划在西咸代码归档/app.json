@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/city/city",
+    "pages/lx/lx",
+    "pages/gh/gh",
+	"pages/forum/forum",
+    "pages/info/info",
+    "pages/web/web",
+    "pages/chat/chat",
+    "pages/map_web/map_web",
+	"pages/detail/detail",
+	"pages/detail_web/detail_web"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "规划在西咸",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "backgroundColorTop": "#000000",
+    "backgroundColorBottom": "#000000",
+    "pageOrientation": "auto"
+  },
+ 
+  "debug": true,
+  "tabBar": {
+    "selectedColor": "#000000",
+    "color": "#6e6e6e",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "魅力西咸",
+        "iconPath": "images/i1_off.png",
+        "selectedIconPath": "images/i1_on.png"
+      },
+      {
+        "pagePath": "pages/gh/gh",
+        "text": "规划版图",
+        "iconPath": "images/i4_off.png",
+        "selectedIconPath": "images/i4_on.png"
+      },
+      {
+        "pagePath": "pages/forum/forum",
+        "text": "国际论坛",
+        "iconPath": "images/forum_off.png",
+        "selectedIconPath": "images/forum_on.png"
+      },
+      {
+        "pagePath": "pages/city/city",
+        "text": "城市心声",
+        "iconPath": "images/i3_off.png",
+        "selectedIconPath": "images/i3_on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

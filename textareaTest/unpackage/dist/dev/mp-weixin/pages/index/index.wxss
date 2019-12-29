@@ -1,0 +1,147 @@
+
+.content {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.rule2{
+	width: 100%;
+	height: 520rpx;
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border:1px solid black;
+}
+.rule2-content{
+	width: 686rpx;
+	height: 520rpx;
+	background:rgba(255,255,255,1);
+	-webkit-box-shadow:0rpx 4rpx 44rpx 0rpx rgba(0,0,0,0.05);
+	        box-shadow:0rpx 4rpx 44rpx 0rpx rgba(0,0,0,0.05);
+	color:rgba(155,155,155,1);
+	border-radius:8rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align:start;
+	-webkit-align-items:flex-start;
+	    -ms-flex-align:start;
+	        align-items:flex-start;
+	border:1px solid black;
+}
+.rule2-content-box{
+	margin-top: 26rpx;
+	width: 646rpx;
+	font-size: 24rpx;
+	border:1px solid black;
+}
+.tag{
+	margin: 0rpx 52rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.tag1{
+	width:142px;
+	height:28px;
+	margin-top: 30rpx;
+	border-radius:4px;
+	border:1px solid rgba(216,216,216,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border: 1px solid black;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.tag2{
+	width:142px;
+	height:28px;
+	margin-top: 30rpx;
+	margin-left: 70rpx;
+	border-radius:4px;
+	border:1px solid rgba(216,216,216,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border: 1px solid black;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.tag text{
+	font-size:12px;
+	font-family:PingFangSC;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+}
+.tag3{
+	width:140px;
+	height:28px;
+	border-radius:4px;
+	border:1px solid rgba(60,188,99,1);
+}
+.tag3 text{
+	font-size:12px;
+	font-family:PingFangSC;
+	font-weight:400;
+	color:rgba(60,188,99,1);
+}
+
+

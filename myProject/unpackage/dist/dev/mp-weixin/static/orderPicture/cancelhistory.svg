@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="5px" viewBox="0 0 7 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>取消</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="首页-搜索-删除历史" transform="translate(-81.000000, -167.000000)" fill-rule="nonzero" stroke="#333333" stroke-width="0.5">
+            <g id="搜索历史" transform="translate(26.000000, 119.000000)">
+                <g id="取消" transform="translate(58.500000, 50.500000) rotate(-45.000000) translate(-58.500000, -50.500000) translate(55.000000, 47.000000)">
+                    <path d="M0,3.5 L7,3.5" id="Line-2"></path>
+                    <path d="M0.159090909,3.5 L6.84090909,3.5" id="Line-2-Copy" transform="translate(3.500000, 3.500000) rotate(-90.000000) translate(-3.500000, -3.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

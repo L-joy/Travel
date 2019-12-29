@@ -1,0 +1,29 @@
+.content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.index_box{
+	width: 86%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0;
+}
+.lz_img{
+	margin-top: 40rpx;
+	width:650rpx;
+	height:360rpx;
+}
+.ml_info{width: 100%; margin: 50rpx auto;display: flex;justify-content: space-between;flex-direction: column;}
+.ml_info text{
+	font-size:28rpx;
+	font-family:PingFangSC-Regular,PingFangSC;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:42rpx;
+}
+image{margin: 0 auto;text-align: center;width: 100%!important;padding: 0;float: left;}

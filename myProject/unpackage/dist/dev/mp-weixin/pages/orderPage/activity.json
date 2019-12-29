@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "活动",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list"
+  }
+}

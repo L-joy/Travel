@@ -1,0 +1,80 @@
+
+.pay-detail-content {
+	width: 686rpx;
+	background:rgba(255,255,255,1);
+	-webkit-box-shadow:0px 4rpx 44rpx 0px rgba(0,0,0,0.05);
+	        box-shadow:0px 4rpx 44rpx 0px rgba(0,0,0,0.05);
+	border-radius:16rpx;
+	margin: 20rpx auto;
+	position: relative;
+}
+.pay-detail-header{
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.pay-detail-header view:nth-child(1){
+	margin-top: 20rpx;
+	height: 34rpx;
+	line-height: 34rpx;
+	margin-left: 80rpx;
+}
+.pay-detail-header view:nth-child(2){
+	margin-top: 20rpx;
+	height: 34rpx;
+	line-height: 34rpx;
+	margin-right: 20rpx;
+}
+.pay-detail-center {
+	height:34rpx;
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	line-height:34rpx;
+	margin-left: 80rpx;
+	margin-top: 10rpx;
+}
+.pay-detail-footer {
+	height:34rpx;
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(155,155,155,1);
+	line-height:34rpx;
+	margin-left: 80rpx;
+	margin-top: 10rpx;
+	padding-bottom: 20rpx;
+}
+.pay-detail-type{
+	width:68rpx;
+	height:30rpx;
+	border-radius:16rpx 16rpx 16rpx 0px;
+	font-size:20rpx;
+	font-family:PingFangSC-Semibold;
+	font-weight:600;
+	color:rgba(255,255,255,1);
+	text-align: center;
+	line-height: 30rpx;
+	position: absolute;
+}
+.pay-online-bg{
+	background:rgba(81,172,241,1);
+}
+.pay-store-bg{
+	background:rgba(245,166,35,1);
+}
+.pay-recharge-bg{
+	background:rgba(126,191,56,1);
+}
+
+

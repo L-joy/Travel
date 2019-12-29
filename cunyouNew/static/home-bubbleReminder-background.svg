@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="194px" height="53px" viewBox="0 0 194 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-添加小程序弹窗" transform="translate(-133.000000, -46.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="提示语" transform="translate(133.000000, 46.000000)">
+                <path d="M170.197863,17 L184.734313,1.04120146 C185.106218,0.632906333 185.738695,0.603406537 186.14699,0.975311818 C186.423477,1.22715614 186.536325,1.61223236 186.439506,1.97347527 L182.125598,18.0691549 C189.051067,20.5752859 194,27.2097003 194,35 C194,44.9411255 185.941125,53 176,53 L18,53 C8.0588745,53 1.21743675e-15,44.9411255 0,35 C-1.21743675e-15,25.0588745 8.0588745,17 18,17 L170.197863,17 Z" id="Rectangle-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

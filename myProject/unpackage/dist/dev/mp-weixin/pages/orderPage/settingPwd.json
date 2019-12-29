@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "找回密码",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list",
+    "uni-countdown": "/components/uni-countdown/uni-countdown"
+  }
+}

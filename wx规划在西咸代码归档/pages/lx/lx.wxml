@@ -1,0 +1,14 @@
+<view class="content">
+	<view class="index_box">
+		<view class='ml_info'>
+		  <text decode="{{true}}" style="text-align: justify;">&emsp;&emsp;如何更好的满足人民日益增长的美好生活需要，早已经成为西咸新区提上日程的重要工作之一。对致力于打造国际化大都市的大西安来说，如何吸引高端人才聚集，筑造未来美好生活蓝图，我们给出了现代田园城市的规划理念——文教园作为西咸新区的宜居生活践行者，已经给出了最好的答案，先于城市想象力，你所有关于理想生活的浪漫梦想，都将在这里触手可及，一切美好，刚刚开始。</text>
+		  <image class='lz_img' mode='widthFix'  src='/images/lx_p1.png'></image>
+		</view>
+	
+	</view>
+</view>
+<import src="../../wxParse/wxParse.wxml" />
+<template is="wxParse" data="{{wxParseData:article.nodes}}" />
+
+<template is="wxParse" data="{{wxParseData:articles.nodes}}" />
+

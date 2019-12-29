@@ -1,0 +1,67 @@
+<view class='zhe_box' style='height:{{windowHeight}}px'>
+    <view class='ml_index'>
+      <image mode='widthFix' src='../../images/x_index.png'></image>
+    </view>
+    <view class='ml_tips'>
+      <image mode='widthFix' src='../../images/x_ico.png'></image>
+    </view>
+  </view>
+
+<view class="index_box">
+  
+  <view class='city_info'>
+    <image mode='widthFix' src='{{pic_list}}'></image>
+  </view>
+
+  <view class='city_text mt30'>什么是理想的宜居城市? 我们想听听你的看法
+  </view>
+  
+  <view class='ml_btn_box mt30'>
+     <view class="chapter">
+		  <view class="chapter_title">
+			  <view style="width: 480rpx;height: 74rpx;">
+			  	  <image  src='/images/forum_chapter1.png' style="width: 480rpx;height: 74rpx;"></image>
+			  </view>
+		  </view>
+	  </view>
+    <view class='ml_btn_1' bindtap='go_lx'>
+         <image mode='widthFix' src='{{cate_list_cate_info}}'></image>
+    </view>
+    
+   <view class='ml_btn_play mt20'>
+    <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" hidden='{{userinfo_flag}}'></button>
+      <image mode='widthFix' bindtap='go_game' src='../../images/play.png'></image>
+    </view>
+  
+  </view>
+  <view class='ml_btn_box mt30'>
+      <view class="chapter">
+        <view class="chapter_title">
+          <view style="width: 231rpx;height: 74rpx;">
+              <image src='/images/forum_chapter2.png' style="width: 231rpx;height: 74rpx;"></image>
+          </view>
+        </view>
+	    </view>
+      <view class='ml_btn_1' bindtap='go_wenjuan'>
+         <image mode='widthFix' src='../../images/city_b_2.png'></image>
+      </view>
+
+  </view>
+
+  <view class='ml_btn_box mt20' >
+     <view class="chapter">
+		  <view class="chapter_title">
+			  <view style="width: 239rpx;height: 74rpx;">
+				  <image src='/images/forum_chapter3.png' style="width: 239rpx;height: 74rpx;"></image>
+			  </view>
+		  </view>
+	  </view>
+    <view class='ml_btn_1' bindtap='go_chat'>
+        <image mode='widthFix' src='../../images/city_b_1.png'></image>
+    </view>
+
+  </view>
+
+
+
+</view>

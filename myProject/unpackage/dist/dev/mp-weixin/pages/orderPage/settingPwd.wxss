@@ -1,0 +1,133 @@
+
+.top{
+	margin-top: 20rpx;
+	width: 100%;
+	height: 488rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.top-content{
+	width: 650rpx;
+	height: 376rpx;
+	background:rgba(255,255,255,1);
+	-webkit-box-shadow:0rpx 4rpx 44rpx 0rpx rgba(0,0,0,0.05);
+	        box-shadow:0rpx 4rpx 44rpx 0rpx rgba(0,0,0,0.05);
+	border-radius:20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.topContentView{
+	height: 64rpx;
+	margin-bottom: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.top-content text{
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(74,74,74,1);
+}
+.topContent{
+	padding-left: 20rpx;
+	margin-left: 28rpx;
+	width: 526rpx;
+	height: 60rpx;
+	border: 1px solid black;
+	line-height: 60rpx;
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(155,155,155,1);
+}
+.topContentS{
+	padding-left: 20rpx;
+	width: 526rpx;
+	height: 60rpx;
+	border: 1px solid black;
+	line-height: 60rpx;
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(155,155,155,1);
+}
+.checked{
+	width: 100%;
+	height: 64rpx;
+	margin-bottom: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.checkedInput{
+	margin-left: 28rpx;
+	padding-left: 20rpx;
+	width: 298rpx;
+	height: 60rpx;
+	border: 1px solid black;
+	line-height: 60rpx;
+	font-size:24rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(155,155,155,1);
+}
+.getChecked{
+	margin-left: 98rpx;
+	width: 124rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	border: 1px solid black;
+	font-size:22rpx;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(51,51,51,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+

@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/addAddress",
+			"style": {
+				"navigationBarTitleText": "地址"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uniapp"
+			}
+		},
+		
+		{
+			"path": "pages/searchPage/searchlist",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/searchPage/searchlistPage",
+			"style": {
+				"navigationBarTitleText": "搜索列表"
+			}
+		},
+		{
+			"path": "pages/searchPage/searchMapResult",
+			"style": {
+				"navigationBarTitleText": "搜索地图"
+			}
+		},
+		{
+			"path": "pages/detailPage/detailPage",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/detailPage/goodsDetailPage",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

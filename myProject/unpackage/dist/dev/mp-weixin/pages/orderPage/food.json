@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "美食",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list"
+  }
+}

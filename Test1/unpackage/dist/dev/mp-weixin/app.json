@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/addAddress",
+    "pages/index/index",
+    "pages/searchPage/searchlist",
+    "pages/searchPage/searchlistPage",
+    "pages/searchPage/searchMapResult",
+    "pages/detailPage/detailPage",
+    "pages/detailPage/goodsDetailPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

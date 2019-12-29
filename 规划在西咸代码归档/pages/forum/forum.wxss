@@ -1,0 +1,61 @@
+.content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.index_box{
+	width: 86%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0;
+	margin-bottom: 80rpx;
+
+}
+.title{
+	width:335rpx;
+	margin: 90rpx auto;
+	height:135rpx;
+	font-size:45rpx;
+	font-family:PingFangSC-Semibold,PingFangSC;
+	font-weight:600;
+	color:rgba(255,255,255,1);
+	line-height:73rpx;
+	letter-spacing:1rpx;
+	text-align: justify;
+}
+.lz_img{
+	margin-top: 40rpx;
+	width:650rpx;
+	height:360rpx;
+}
+.ml_info{width: 100%; margin: 0 auto;display: flex;justify-content: space-between;flex-direction: column;}
+.ml_info text{
+	font-size:28rpx;
+	font-family:PingFangSC-Regular,PingFangSC;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	line-height:42rpx;
+}
+.chapter{
+	width: 100%;
+	margin-top: 60rpx;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.chapter_title{
+	width: 100%;
+	padding-bottom: 24rpx;
+	border-bottom: 1px solid #ddd;
+}
+.chapter_img{
+	margin-top: 30rpx;
+	width:650rpx;
+	height:160rpx;
+}
+

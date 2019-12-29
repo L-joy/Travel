@@ -1,0 +1,46 @@
+<view class="content">
+	<view class="title">
+		<view style="letter-spacing: 12.5px;">2019论坛</view>
+		<view>城市高质量发展</view>
+	</view>
+	<view class="index_box">
+	 
+	  <!--index.wxml-->
+	
+	  <view class='ml_info'>
+		  <text decode="{{true}}" style="text-align: justify;">&emsp;&emsp;2019创新城市发展方式（西咸）国际论坛以“城市高质量发展”为主题，由陕西省政府指导，西咸新区管委会主办，中国城市和小城镇改革发展中心、中国城市规划学会、绿地集团、恒大集团、财讯传媒集团协办，由开幕式暨高峰论坛、三场主题论坛及一系列活动组成。</text>
+		  <text decode="{{true}}" style="text-align: justify;">&emsp;&emsp;其中，大西安新中心新轴线“南北绿廊点亮计划”国际工作坊，邀请了香港肃木丁、丹麦ZESO、法国AAUPC等5家全球新锐设计师团队及全国知名规划建筑界“智囊”齐聚西咸新区，针对南北绿廊的整体建设提出具有创意性的设计方案，并通过工作坊交流、专家会研讨的形式，以国际标准、创新眼光、未来视野打造为人民设计的高品质都市公园景观与立体公共空间，使南北绿廊成为点亮能源金贸区的新触点。</text>
+		  <image class='lz_img' mode='widthFix'  src='/images/forum_content1.png'></image>
+	  </view>
+	  <view class="chapter">
+		  <view class="chapter_title">
+			  <view style="width: 480rpx;height: 74rpx;">
+			  	  <image  src='/images/forum_chapter1.png' style="width: 480rpx;height: 74rpx;"></image>
+			  </view>
+		  </view>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_1.png' data-id="1" bindtap="index_go_page"></image>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_2.png' data-id="2" bindtap="index_go_page"></image>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_3.png' data-id="3" bindtap="index_go_page"></image>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_4.png' data-id="4" bindtap="index_go_page"></image>
+	  </view>
+	  <view class="chapter">
+		  <view class="chapter_title">
+			  <view style="width: 231rpx;height: 74rpx;">
+			  		<image src='/images/forum_chapter2.png' style="width: 231rpx;height: 74rpx;"></image>
+			  </view>
+		  </view>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_5.png' data-id="5" bindtap="index_go_page"></image>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_6.png' data-id="6" bindtap="index_go_page"></image>
+		  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_7.png' data-id="7" bindtap="index_go_page"></image>
+	  </view>
+	  <view class="chapter">
+		  <view class="chapter_title">
+			  <view style="width: 239rpx;height: 74rpx;">
+				  <image src='/images/forum_chapter3.png' style="width: 239rpx;height: 74rpx;"></image>
+			  </view>
+		  </view>
+	  	  <image class='chapter_img' mode='widthFix'  src='/images/forum_b_8.png'></image>
+	  </view>
+	
+	</view>
+</view>

@@ -1,0 +1,1 @@
+<order-list vue-id="1" showHeader1="{{true}}" showCountDown="true" showDate4="{{true}}" dateLeft="{{dateleft}}" dateMid="{{datemid}}" showMessage4="{{true}}" showRule1="{{true}}" showBottom1="{{true}}" goodsMag="{{goodsMag}}" data-event-opts="{{[['^submit',[['gogoodsPayPage']]]]}}" bind:submit="__e" bind:__l="__l"></order-list>

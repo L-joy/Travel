@@ -1,0 +1,94 @@
+
+.pay-success-box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 166rpx;
+}
+.ok-image {
+	width: 152rpx;
+	height: 152rpx;
+}
+.pay-success-box view:nth-child(2){
+	height:40rpx;
+	font-size:28rpx;
+	font-family:PingFangSC-Semibold;
+	font-weight:600;
+	color:rgba(51,51,51,1);
+	line-height:40rpx;
+	margin-top: 34rpx;
+}
+.pay-success-box view:nth-child(3){
+	height:40rpx;
+	font-size:24rpx;
+	font-family:PingFangSC-Medium;
+	font-weight:500;
+	color:rgba(51,51,51,1);
+	line-height:40rpx;
+	margin-top: 16rpx;
+}
+.pay-success-box view:nth-child(4){
+	width: 100%;
+	height:88rpx;
+	position: fixed;
+	bottom:0rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.pay-success-box view:nth-child(4) view:nth-child(1){
+	width: 50%;
+	height: 88rpx;
+	line-height: 88rpx;
+}
+.pay-success-box view:nth-child(4) view:nth-child(1) button{
+	border-radius: 0rpx;
+	height: 100%;
+	line-height: 88rpx;
+	color:rgba(51,51,51,1);
+	background:#CCCCCC;
+}
+.pay-success-box view:nth-child(4) view:nth-child(2){
+	width: 50%;
+	height: 88rpx;
+	line-height: 88rpx;
+	margin-top: 0rpx;
+}
+.pay-success-box view:nth-child(4) view:nth-child(2) button{
+	border-radius: 0rpx;
+	height: 100%;
+	line-height: 88rpx;
+	background:rgba(61,188,99,1);
+	color:rgba(255,255,255,1);
+}
+
+
+

@@ -1,0 +1,73 @@
+
+.tagController{
+	/* padding: 10upx;	 */
+}
+.tagContainer{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+.tagItem{
+	width:40px;
+	height:18px;
+	background:rgba(0,0,0,0.5);
+	border-radius:9px;
+	border:1px solid rgba(255,255,255,1);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin:0 10px 0 10px;
+}
+.tagText{
+	font-size:11px;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+}
+.tagBgNew{
+	background-color:rgba(0,0,0,0.5);
+}
+.tagBgDefault{
+	background-color: #cfcfcf;
+	color: black;
+}
+.tagBgPrimary{
+	background-color: #007aff;
+}
+.tagBgSuccess{
+	background-color: #4cd964;
+}
+.tagBgWarning{
+	background-color: #f0ad4e;
+}
+.tagBgError{
+	background-color: #dd524d;
+}
+.tagDelIcon{
+	padding-left: 20rpx;
+}
+.tagInput{
+	padding: 10rpx;
+}
+.tagInput input{
+	width: 60%;
+	display: inline-block;
+}
+

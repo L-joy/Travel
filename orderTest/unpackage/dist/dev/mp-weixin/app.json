@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/shangjia",
+    "pages/index/menpiao",
+    "pages/index/meishi",
+    "pages/index/zhusu",
+    "pages/index/huodong",
+    "pages/index/xianlu",
+    "pages/index/qianggou",
+    "pages/orderSuccess/orderSuccess"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,72 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.8.2",
+	"appid": "wx33db193b83c8dc0f",
+	"projectname": "xixian_app",
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 4,
+			"list": [
+				{
+					"id": -1,
+					"name": "city",
+					"pathName": "pages/city/city",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "lx",
+					"pathName": "pages/lx/lx",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "详细页面",
+					"pathName": "pages/info/info",
+					"query": "id=2"
+				},
+				{
+					"id": -1,
+					"name": "web",
+					"pathName": "pages/web/web",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "chat",
+					"pathName": "pages/chat/chat"
+				}
+			]
+		}
+	}
+}

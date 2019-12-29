@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "地址",
+  "usingComponents": {
+    "cmd-icon": "/components/cmd-icon/cmd-icon"
+  }
+}

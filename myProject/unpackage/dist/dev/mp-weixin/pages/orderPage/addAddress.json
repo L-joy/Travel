@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加收货地址",
+  "usingComponents": {
+    "cmd-icon": "/components/cmd-icon/cmd-icon",
+    "lotus-address": "/components/Winglau14-lotusAddress/Winglau14-lotusAddress"
+  }
+}

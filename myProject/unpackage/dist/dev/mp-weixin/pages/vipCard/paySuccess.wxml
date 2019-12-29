@@ -1,0 +1,1 @@
+<view class="pay-success-box"><view><image class="ok-image" src="../../static/recharge-success.svg"></image></view><view>充值成功</view><view>{{'¥'+pay+'.00'}}</view><view>{{''+gift+'元赠送金额已存入会员卡余额中'}}</view><view><button class="GoPayButton" type="primary" data-event-opts="{{[['tap',[['setPassword']]]]}}" bindtap="__e">设置支付密码</button></view><view>为了您的账户安全，请设置支付密码</view></view>

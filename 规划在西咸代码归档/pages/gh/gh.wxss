@@ -1,0 +1,4 @@
+/* pages/gh/gh.wxss */
+.ml_btn_box{margin-top: 50rpx;border-bottom:1px solid #ddd;padding-bottom: 20rpx;}
+.city_info{max-height: 305px;}
+.ml_btn_1{width: 90%;max-height: 45px;}

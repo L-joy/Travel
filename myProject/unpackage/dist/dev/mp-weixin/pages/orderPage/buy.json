@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "抢购",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list"
+  }
+}

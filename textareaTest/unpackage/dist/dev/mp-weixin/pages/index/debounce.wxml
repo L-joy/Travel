@@ -1,0 +1,1 @@
+<view class="content"><view data-event-opts="{{[['tap',[['add',['$event']]]]]}}" class="main" bindtap="__e">{{''+count+''}}</view><view data-event-opts="{{[['tap',[['add1',['$event']]]]]}}" class="main1" bindtap="__e">{{''+count1+''}}</view></view>

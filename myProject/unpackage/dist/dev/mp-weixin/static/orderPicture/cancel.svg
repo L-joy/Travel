@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>取消</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="首页-支付订单-弹窗详情说明页" transform="translate(-297.000000, -180.000000)" fill-rule="nonzero" stroke="#333333" stroke-width="2">
+            <g id="取消" transform="translate(303.500000, 186.500000) rotate(-45.000000) translate(-303.500000, -186.500000) translate(297.000000, 180.000000)">
+                <path d="M0,6.5 L13,6.5" id="Line-2"></path>
+                <path d="M0.295454545,6.5 L12.7045455,6.5" id="Line-2-Copy" transform="translate(6.500000, 6.500000) rotate(-90.000000) translate(-6.500000, -6.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

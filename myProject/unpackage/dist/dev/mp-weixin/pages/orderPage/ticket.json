@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "门票",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list"
+  }
+}

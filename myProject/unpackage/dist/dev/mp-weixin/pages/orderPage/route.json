@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "线路",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list"
+  }
+}

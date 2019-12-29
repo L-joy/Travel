@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/shangjia",
+			"style": {
+				"navigationBarTitleText": "商家"
+			}
+		},
+		{
+		    "path" : "pages/index/menpiao",
+		    "style" : {
+				"navigationBarTitleText": "门票"
+			}
+		},
+		{
+		    "path" : "pages/index/meishi",
+		    "style" : {
+				"navigationBarTitleText": "美食"
+			}
+		},
+		{
+		    "path" : "pages/index/zhusu",
+		    "style" : {
+				"navigationBarTitleText": "住宿"
+			}
+		},
+		{
+		    "path" : "pages/index/huodong",
+		    "style" : {
+				"navigationBarTitleText": "活动"
+			}
+		},
+		{
+		    "path" : "pages/index/xianlu",
+		    "style" : {
+				"navigationBarTitleText": "线路"
+			}
+		},
+		{
+		    "path" : "pages/index/qianggou",
+		    "style" : {
+				"navigationBarTitleText": "抢购"
+			}
+		},
+		{
+            "path" : "pages/orderSuccess/orderSuccess",
+            "style" : {
+				"navigationBarTitleText": "uni-app"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

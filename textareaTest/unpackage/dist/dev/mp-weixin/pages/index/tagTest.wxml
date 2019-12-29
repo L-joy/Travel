@@ -1,0 +1,1 @@
+<view class="content"><view class="imgContent"><image src="../../static/1.6.jpg" mode></image><view class="imgTagList"><block wx:for="{{tagList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="imgTag"><view class="tagList"><text>{{item}}</text></view></view></block></view></view></view>

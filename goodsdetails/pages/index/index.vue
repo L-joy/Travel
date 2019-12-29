@@ -6,7 +6,7 @@
 					<view class="list-top">
 						<image class="uni-media-list-logo" :src="item.imgsrc"></image>
 						<view class="uni-media-list-body">
-							<view class="uni-media-list-text-title">{{item.title}}</view>
+							<view class="uni-media-list-text-title" @click="goGoodsDetails">{{item.title}}</view>
 							<view class="uni-media-list-text-label">{{item.content}}</view>
 							<view class="uni-media-list-text-address">{{item.address}}</view>
 						</view>
@@ -93,9 +93,19 @@
 			}
 		},
 		onLoad() {
+			
 
 		},
 		methods: {
+			goGoodsDetails(e){
+				console.log(e)
+				uni.navigateTo({
+					url:'../goodsDetails/goodsDetails',
+					success:function(){
+						console.log("成功跳转")
+					}
+				})
+			}
 
 		}
 	}

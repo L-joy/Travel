@@ -1,0 +1,293 @@
+<view class="box">
+
+	<block wx:if="{{isShowpart === 1}}">
+		<view class="title">项目背景</view>
+		<view class="detail_title">
+			西咸新区建设将充分发挥和彰显历史文化、生态水脉、资源要素和综合区位等特色优势，力争通过五到十年的时间，把西咸新区建设成为生态文明、环境友好、设施现代、社会和谐、开放包容、彰显历史文化、产业有序集聚的西安国际化大都市的主城功能新区和生态田园新城，构建社会经济发展新的增长极，打造全国区域协调发展的国家级新区。
+		</view>
+		<image class="detail_img" mode='widthFix'  src='/images/index_1_p1.png'></image>
+		<view class="subpart">
+			<view class="subpart">
+				<view class="part_title">大西安中轴</view>
+				<image class="detail_img" mode='widthFix'  src='/images/detail_bg_p1.png'></image>
+				<view class="subpart">
+					<view class="part_subtitle">· 建设意义</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;“中轴线”是中国城市规划的传统手法，在落实西咸新区现代田园城市规划中，我们“遵循历史文脉、遵循山水格局、遵循现代规划理念”的基础上逐步形成了新长安大轴线的思路，以期成为关中城市群核心区的发展脊梁。
+						</text>
+						<text decode="{{true}}">&emsp;&emsp;新轴线的建设，有助于落实“一带一路”战略，有助于推动西部开发开放发展，有助于提升关中城市群竞争力，有助于大西安国际化大都市建设。新中轴将落实“双轴双心”的规划要求，聚集国际化高端要素，增强大西安国际化城市职能，创造国际化发展环境，构建现代化大西安的新中心，提升大西安的国际影响力，重塑大西安区域空间发展新格局。
+						</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 范围结构</view>
+					<view class="detail_title">
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>北起沣渭湿地，南至昆明池，全长20公里，与新区复兴大道中心线重合，位于沣河和绕城之间的中心位置。</view>
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>东至西安绕城高速，西至沣渭大道，北至沣渭三角洲，南至京昆高速，总用地面积约122平方公里，核心区面积18平方公里。</view>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 规划定位</view>
+					<view class="detail_title">
+						<view>
+							<text style="font-size: 40rpx;font-weight: 700;">· </text>形成“一轴，双心，两带，四大功能区”的规划结构。
+						</view>
+						<view>
+							<text style="font-size: 40rpx;font-weight: 700;">· </text>六大特征：“现代、时尚、生态、科技、文化、活力”。 
+						</view>
+						<view>
+							<text style="font-size: 40rpx;font-weight: 700;">· </text>五大主导功能：金融商务、国际贸易、科技创新、文化交流、休闲旅游为五大主导功能。
+						</view>
+						<view>
+							<text style="font-size: 40rpx;font-weight: 700;">· </text>定位：“西部开发开放创新发展示范区”“一带一路国际交流合作重要节点”。
+						</view>
+						<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+							<image class="detail_img" mode='widthFix'  src='/images/detail_bg_p2.png'></image>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="subpart">
+				<view class="part_title">能源金融贸易区起步区</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 定位</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;能源金融贸易区为大西安新中心新轴线的商务都会功能区、核心承载区，是新区近期开发和建设的重点区域。作为展示陕西自由贸易试验区国际竞争力影响力的“先锋之作”，不仅是商务总部办公、丝路文化和国际交流的复合舞台，还将致力于打造大西安新功能中心，彰显融合山水、创新发展的大西安新中轴城市形象，成为西部高质量规划统筹、高品质空间建设的样板区。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 规划结构与布局</view>
+					<view class="detail_title">
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>规划面积8.4平方公里，城市建设用地4.5平方公里，建筑总量880万平方米。</view>
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>规划布局两个核心商圈、5个生态公园、4个超高层建筑群、5个高端酒店。</view>
+					    <view><text style="font-size: 40rpx;font-weight: 700;">· </text>配套13所学校（8所幼儿园、3所小学、2所初中）以及图书馆、科技馆等“十塔一馆”重大公共文化项目</view>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 单元开发</view>
+					<view class="detail_title">
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>规划划分10个单元，包括6个商办产业开发单元和4个生活居住开发单元。</view>
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>每个单元约500-800亩，每单元开发量控制在60-100万平方米。</view>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 建设进展</view>
+					<image class="detail_img" mode='widthFix'  src='/images/detail_bg_p3.png'></image>
+					<view class="detail_title">
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>已开发460亩，形成100万平米办公区域</view>
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>近期即将开发两个单元约1100亩，总建筑面积近185万平方米。</view>
+					</view>
+				</view>
+			</view>
+			<view class="subpart">
+				<view class="part_title">南北绿廊</view>
+				<image class="detail_img" mode='widthFix'  src='/images/detail_bg_p4.png'></image>
+				<view class="detail_title">
+					<text decode="{{true}}">&emsp;&emsp;在上位城市设计中，U型绿环作为能源金贸区的重要开放空间骨架，不仅是藤蔓式的景观廊道，串联起片区各大公园节点，成为海绵韧性的翡翠项链，同时也是线性慢行系统，连接重要功能组团，成为人群交往、信息交互、活动多元的复合公共空间。</text>
+				    <text decode="{{true}}">&emsp;&emsp;南北绿廊作为U型绿环的重要段落，同时是能源金贸区近期建设的形象展示门户，更是服务周边商务人群、社区人群的重要活动场所，应该提升为一个有活力的、多产的、为社区服务的公共景观。同时，南北绿廊中段与轨道16号线能源中心站无缝衔接，是片区地下空间开发的主要核心。因此，南北绿廊作为承载片区形象展示、复合都市体验、地上下一体开发的重要功能节点，由此将周边景观资源整合联结转换成为具有经济动力的新兴文化体验目的地。</text>
+				</view>
+			</view>
+			
+		</view>
+	</block>
+
+	<block wx:elif="{{isShowpart === 2}}">
+		<view class="subpart">
+			<view class="subpart">
+				<view class="part_title">设计范围</view>
+				<view class="detail_title">
+					<text decode="{{true}}">&emsp;&emsp;研究范围为东至沣泾大道，西至金融三路，北至能源三路，南至陇海铁路北侧路，统筹考虑包括南北绿廊周边主要商务办公片区与周边公园绿地的统筹融合。
+					</text>
+					<text decode="{{true}}">&emsp;&emsp;设计范围包括金融东路以西，金融西路以东，丰产路以南，丰安路以北，位于南北绿廊上的四块绿地。基地东西宽度50米，南北长度800米，四个地块总面积约34800平方米。</text>
+				</view>
+				<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+					<image class="detail_img" mode='widthFix'  src='/images/detail_bg_p5.png'></image>
+				</view>
+	
+			</view>
+			<view class="subpart">
+				<view class="part_title">设计内容和设计原则</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 设计内容</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;本次工作坊应结合片区规划设计情况，以《大西安新中心新轴线城市设计》和《西咸新区丝路经济带能源金融贸易区整体城市设计及核心区详细设计导则》为基础，同时考虑市政、交通等专项要求，为南北绿廊提出富有创意的设计方案。具体内容包括但不局限以下方面：</text>
+					    <view><text style="font-size: 40rpx;font-weight: 700;">· </text>
+						南北绿廊概念策划方案</view>
+						研究周边功能及城市发展趋势，明确地上地下一体化开发的目标、主题定位、功能定位、目标人群、空间特色。
+					    <view><text style="font-size: 40rpx;font-weight: 700;">· </text>
+						地上地下一体化概念设计方案</view>
+						对南北绿廊地上下景观、空间、立体交通、慢行空间、公共设施等内容进行一体化考虑，提出富有创意的景观、空间一体化概念设计方案。
+					    <view><text style="font-size: 40rpx;font-weight: 700;">· </text>
+						绿廊公共艺术概念设计方案</view>
+						结合南北绿廊的空间特征与文脉基础，提出富有创意的整体公共艺术主题策划、重要节点公共艺术概念设计等内容。
+					    
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 设计原则</view>
+					<view class="detail_title">
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>
+						公园+复合化开发</view>
+						从“城市中建公园”向“公园中建城市”转变，以都市公园为基础，在公园中复合商业休闲、文化展示、科技服务等复合业态，并与周边城市功能联动，力图将公园打造成为新兴都市体验目的地。
+						<view><text style="font-size: 40rpx;font-weight: 700;">· </text>
+						地上地下一体化</view>
+						绿廊地面景观与绿廊地下空间、轨道站点应作为整体一体化设计。充分考虑地上地下功能联动、空间互动、流线串接，并与周边地下功能良好衔接。
+					    <view><text style="font-size: 40rpx;font-weight: 700;">· </text>
+						现代性与地域性结合</view>
+						南北绿廊作为新轴线、金贸区的形象展示重要窗口，应充分体现其现代性、未来性，融合新兴科技手段、超前技术理念，彰显地区建设的高标准、国际化。同时，也应考虑南北绿廊如何体现本土文脉与地域特色，将文化特色融入景观设计、空间设计。
+					</view>
+				</view>
+			</view>
+			
+			
+		</view>
+	</block>
+     
+	<block wx:elif="{{isShowpart === 3}}">
+		<view class="subpart">
+			<view class="subpart">
+				<view class="part_title">专家</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 黄卫东</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_prof_p1.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;深圳市城市规划设计研究院常务副院长、副总规划师，教授级高级规划师，国家注册城市规划师。长期致力于探索人性化城市的规划理念与技术方法研究，积极倡导多学科参与的城市规划综合解决方案。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 徐磊青</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_prof_p2.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;同济高端智库专家，同济大学建筑与城市规划学院教授，博士生导师 。同济人因智能与行为实验中心主任。同济实业投资（集团）城市更新研究中心主任。中国环境行为学会（EBRA）副会长，世界华人建协城乡特色委员会秘书长。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 周炳宇</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_prof_p3.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;上海同济城市规划设计研究院有限公司，城市空间与交通所所长，高级工程师。擅长地下空间规划设计，近几年完成广州金融城，昆明巫家坝，青岛保税区，活力区，西咸新区，上海市虹口区，杭州世纪城，东营，莱芜等多个省会大中城市的地下空间规划编制工作。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 陈靖宁</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_prof_p4.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;易兰规划设计院合伙人兼集团副总，中国北京女风景园林师分会秘书长。主持和参与了华彬高尔夫俱乐部金熊会所、北京环球影城主题公园度假区景观河道、深圳华侨城等众多项目。</text>
+					</view>
+				</view>
+			
+			</view>
+			<view class="subpart">
+				<view class="part_title">工作坊团队</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 丹麦ZESO建筑师事务所（ZESO ARCHITECTS）</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_team1.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;丹麦 ZESO 建筑师事务所（ZESO ARCHITECTS）系在丹麦为排名前十的综合型设计企业，员工规模五十余人。公司全球总部位于丹麦哥本哈根，并在中国成都、广州设有代表处，在德国、爱尔兰及格陵兰岛（丹属）有长期合作伙伴及项目合作。公司下设人居环境、商业、医疗护理、改造、教育、交通与规划六个设计部，并设有中国项目部与爱尔兰（英国地区）项目部两个区域设计部。ZESO是一支扎根于丹麦本地而又国际化的团队，具备北欧的设计思维与不同的国际文化视野。 公司在一系列的国际超一线竞赛的优胜中，有以下代表作：丹麦哥本哈根机场T3 航空港建设（为丹麦历史最大交通综合体工程）、丹麦哥本哈根机场新航站楼PIERE、格陵兰岛三大机场等作品。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 西安美术学院建筑环境艺术系</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_team2.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;西安美术学院建筑环境艺术系在1986 年开设的环境艺术设计专业基础上，于2001年成为独立系级建制。作为我国西北地区高等院校中环境艺术设计教育开办历史最早、办学水平和办学层次最高的设计专业院系之一，其教学理念：“立足本土文化传承与保护，关注当代健康环境设计与研究，探索人类未来发展的环境质量需求“，在专业体系和课程设置上秉承“扎根优秀传统文化;汲取中西方营造艺术营养；依托美术学院艺术人文资源优势；立足本土地域特色发展研究的特色发展思路；通过多年实践探索，形成了符合自身发展的专业特色。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· AAUPC CHAVANNES & ASSOCIES（法国AAUPC建筑规划事务所）</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_team3.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;AAUPC CHAVANNES & ASSOCIES（法国AAUPC建筑规划事务所）由Patrick CHAVANNES（帕特里克.夏瓦纳）1988年创建于巴黎，至今发展成为法国最具创造力的综合性设计事务所之一，是大巴黎多个典范性城市更新项目的设计总负责人，如巴黎拉德芳斯 CBD 西扩、雷诺汽车旧厂区改造等。AAUPC自2003年起开展中国项目并随之成立子公司，曾先后主持参与了新加坡•南京生态科技岛、广州设计之都、深圳光明文化艺术中心、佛山文翰湖公园、广州花都CBD中央景观轴线等重要项目，具有丰富的大型城市开发设计和生态景观规划经验。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· 肃木丁建筑事务所 SWOODING ARCHITECTS   </view>
+				
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;肃木丁建筑事务所注册成立于香港，由香港建筑师学会会员纪啸林和丁樯联合创办。 肃木丁强调从规划到建筑、再到室内与景观的全面性，以及从项目策划到指导配合施工落地的全过程，肃木丁还是一个努力把空间实践建构在“近未来”生产与生活方式基础上的建筑事务所。他们坚信物理空间是当时当下生产力与生产关系的现实表象，而此时此地有说服力和吸引力的空间是它们某种程度上呈现了可预知未来的生产和生活方式，肃木丁称之为空间的“近未来”性。 在肃木丁的“近未来”空间实践中，尺度（城市尺度、建筑尺度）、类型（城市设计、建筑 设计、景观设计、产品设计等）与学科（艺术、机械、材料等）的边界被尽量模糊，并试图把跨领域的前沿信息与技术引入设计与创作，只要它们有助于呈现“近未来”的生产与生活方式，都会成为肃木丁建构“近未来”空间的手段。</text>
+					</view>
+				</view>
+				<view class="subpart">
+					<view class="part_subtitle">· McGregorCoxall景观设计咨询有限公司</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/detail_team5.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;McGregorCoxall创建于1998年，是一个跨领域的、专注于实现城市可持续繁荣发展的设计公司，事务所遍及澳大利亚、英国和中国。作为国际团队，McGregorCoxall吸纳先进的数字科技手段，提供包括景观设计、城市规划、环境改造等多方面服务，为复杂的城市和环境问题提供创造性的解决方案。McGregorCoxall 现已发展为4个工作室、超过30位专业设计师、横跨3大洲、完成过超过400多个项目的国际团队，服务跨越城市、景观、文化、规划、生态学等学科的传统边界。McGregorCoxall一以贯之坚持追求设计的本质和品质，并借助公司与各国高校、政府研究机构搭建的“Biocity研究所”平台，不断创造具有科学性和创新性的作品。</text>
+					</view>
+				</view>
+				
+			</view>			
+		</view>
+	</block>
+	 
+	 <block wx:else="{{isShowpart === 4}}">
+	 	<view class="subpart">
+			<view class="subpart">
+				<!-- <view class="part_title">Day 1  10.9 开营与踏勘</view> -->
+				<view class="subpart">
+					<view class="part_subtitle">· Day 1  10.9 开营与踏勘</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/index_1_p1.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;</text>
+					</view>
+				</view>
+				
+			</view>
+			<view class="subpart">
+				<!-- <view class="part_title">Day 2  10.10 答疑及创意工作坊</view> -->
+				<view class="subpart">
+					<view class="part_subtitle">· Day 2  10.10 答疑及创意工作坊</view>
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/index_1_p1.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;</text>
+					</view>
+				</view>
+			</view>
+			<view class="subpart">
+				<view class="part_title">Day 3  10.11 集中工作坊</view>
+				<view class="subpart">
+					<!-- <view class="part_subtitle">· Day 3  10.11 集中工作坊</view> -->
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/index_1_p1.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;</text>
+					</view>
+				</view>
+			</view>
+			<view class="subpart">
+				<view class="part_title">Day 4  10.12 专家研讨会</view>
+				<view class="subpart">
+					<!-- <view class="part_subtitle">· Day 4  10.12 专家研讨会</view> -->
+					<view style="width: 100%;display: flex;justify-content: center;align-items: center;">
+						<image class="detail_img" mode='widthFix'  src='/images/index_1_p1.png'></image>
+					</view>
+					<view class="detail_title">
+						<text decode="{{true}}">&emsp;&emsp;</text>
+					</view>
+				</view>
+			</view>
+	 	
+	 	</view>
+	 </block>
+	  
+</view>

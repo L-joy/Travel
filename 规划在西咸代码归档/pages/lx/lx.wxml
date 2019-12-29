@@ -1,0 +1,39 @@
+<view class='city_info'>
+  <image mode='widthFix' src='{{pic_list}}'></image>
+</view>
+
+<view class="index_box">
+
+
+  <view class='ml_btn_box mt30'>
+
+    <view class='ml_btn_1 mt20'>
+      <image mode='widthFix' src='{{cate_btn_img[2][0]}}'></image>
+    </view>
+
+  </view>
+
+
+
+  <view class='ml_btn_list mt30'>
+
+
+
+    <view class='ml_btn_2 mt20' wx:for="{{cate_list_cate_info[12]}}" wx:for-index="idx" wx:for-item="itemName" data-id='{{itemName.id}}' bindtap='index_go_page'>
+      <image mode='widthFix' src='{{img_url}}{{itemName.more.thumbnail}}'></image>
+    </view>
+
+
+
+   <view class='ml_btn_play mt20'>
+    <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" hidden='{{userinfo_flag}}'></button>
+      <image mode='widthFix' bindtap='go_game' src='../../images/play.png'></image>
+    </view>
+
+
+
+  </view>
+
+
+
+</view>

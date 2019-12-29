@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "填写订单",
+  "usingComponents": {
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "order-list": "/components/order-list/order-list",
+    "cmd-icon": "/components/cmd-icon/cmd-icon",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "best-payment-password": "/components/best-payment-password/best-payment-password"
+  }
+}

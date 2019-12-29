@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "wlp-number-shopping": "/components/wlp-number-shopping/wlp-number-shopping",
+    "calendar": "/components/date-picker/date-picker",
+    "uni-countdown": "/components/uni-countdown/uni-countdown",
+    "uni-tag": "/components/uni-tag/uni-tag"
+  },
+  "component": true
+}

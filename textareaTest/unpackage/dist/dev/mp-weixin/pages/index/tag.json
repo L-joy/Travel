@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

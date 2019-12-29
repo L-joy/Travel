@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "order-list": "/components/order-list/order-list"
+  }
+}
